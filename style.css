@@ -1,0 +1,74 @@
+:root {
+    --white: hsl(0, 0%, 100%);
+    --slate-300: hsl(212, 45%, 89%);
+    --slate-500: hsl(216, 15%, 48%);
+    --slate-900: hsl(218, 44%, 22%);
+    --green-300: hsl(119, 19%, 42%);
+    --space-200: 16px;
+    --space-300: 24px;
+    --space-500: 40px;
+    --card-image-width: 288px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'Outfit', sans-serif;
+    background-color: var(--slate-300);
+    font-size: 16px;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: var(--white);
+    border-radius: 20px;
+    padding: var(--space-200) var(--space-200) var(--space-500);
+}
+
+.card-image {
+    border-radius: 10px;
+    width: var(--card-image-width);
+    object-fit: cover;
+    margin-bottom: var(--space-300);
+}
+
+.card-content {
+    padding: 0 var(--space-200);
+    max-width: var(--card-image-width);
+    margin: 0 auto;
+    text-align: center;
+}
+
+.card-title {
+    color: var(--slate-900);
+    font-size: 22px;
+    line-height: 120%;
+    margin-bottom: var(--space-200);
+}
+
+.card-description {
+    color: var(--slate-500);
+    font-size: 15px;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+}
+
+.attribution {
+    position: fixed;
+    bottom: 0;
+    font-size: 0.75rem;
+    color: var(--slate-500);
+    padding: 1rem;
+}
+
+.attribution a {
+    color: var(--green-300);
+}
