@@ -14,13 +14,19 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
+#### Design - Desktop
+![Design of desktop version](design/desktop-design.jpg)
+#### Screenshot - Desktop
 ![Screenshot of desktop version](images/desktop_screenshot.png)
+#### Design - Mobile
+![Design of mobile version](design/mobile-design.jpg)
+#### Screenshot - Mobile
 ![Screenshot of mobile version](images/mobile_screenshot.png)
 
 ### Links
 
 - Solution URL: [Solution Repository](https://github.com/nah-y/fm_qr_code_component)
-- Live Site URL: [Add live site URL here]()
+- Live Site URL: [Live Site](https://nahys-qr-code-component.netlify.app/)
 
 ## Built with
 
